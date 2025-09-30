@@ -17,13 +17,21 @@
 :root {
     --primary-font: "Dongle", sans-serif;
     --secondary-font: "M+PLUS+1p", sans-serif;
-    --primary-color: ; /* */
-    --secondary-color: ; /* */
-    --highlight-color: ; /*  */
-    --highlight-color-light: ; /*  */
+    --primary-color: #1A2C38; /* Deep Ocean blue */
+    --secondary-color: #5E8862; /* Amazonite */
+    --highlight-color: #94B0D5; /* Kind Blue */
+    --highlight-color-light: #CDB2BD; /* Soft pink */
 }
 
 /* Global Styles */
+
+h1, h2 {
+    text-transform: uppercase;
+}
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color); /* Amazonite */
+}
 
 /* Navbar */
 
@@ -32,6 +40,8 @@
 }
 #navbar {
     background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
 }
 
 /* Header */
