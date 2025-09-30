@@ -1,0 +1,51 @@
+/*//https://formdump.codeinstitute.net//*/
+/*Photo by Ahmet Yüksek ✪: https://www.pexels.com/photo/layered-mountain-silhouettes-at-sunset-33764947/*/
+/*Photo by Đỗ Ngọc Tú Quyên: https://www.pexels.com/photo/photo-of-a-woman-smiling-1520760/*/
+/*Photo by Justin Shaifer: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/*/
+/*Photo by Tima Miroshnichenko: https://www.pexels.com/photo/people-arms-raised-with-clenched-fist-7203649/*/
+/*Photo by Thiago  Matos : https://www.pexels.com/photo/woman-with-smeared-eyes-in-studio-4576085/*/
+/*Photo by Yassir Abbas: https://www.pexels.com/photo/man-with-eyes-covered-by-cloth-11611449/*/
+/*Photo by Tara Winstead: https://www.pexels.com/photo/red-text-on-white-textile-8386730/*/
+/*Photo by Bri Schneiter: https://www.pexels.com/photo/calm-body-of-lake-between-mountains-346529/*/
+/*Icons by GPT-5*/
+
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=M+PLUS+1p&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Dongle", sans-serif;
+    --secondary-font: "M+PLUS+1p", sans-serif;
+    --primary-color: ; /* */
+    --secondary-color: ; /* */
+    --highlight-color: ; /*  */
+    --highlight-color-light: ; /*  */
+}
+
+/* Global Styles */
+
+/* Navbar */
+
+.logo {
+    width: 3em;
+}
+#navbar {
+    background-color: var(--primary-color);
+}
+
+/* Header */
+
+/* Footer */
+
+/* media queries */
+
+@media screen and (min-width: 768px ) {
+}
+@media screen and (min-width: 992px ) {
+}
+@media screen and (min-width: 1200px ) {
+}
+@media screen and (min-width: 1400px ) {
+
+}
