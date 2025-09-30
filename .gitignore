@@ -6,6 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+.idea
 
 # From here downwards...
 # Created by https://www.toptal.com/developers/gitignore/api/osx,macos,webstorm
