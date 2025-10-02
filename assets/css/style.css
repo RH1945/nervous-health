@@ -12,14 +12,17 @@
 /*Photo by <a href="https://unsplash.com/@withdanial?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Danial D</a> on <a href="https://unsplash.com/photos/man-in-black-shirt-and-cap-gestures-enthusiastically-VBpMICi4Z74?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
 /*Photo by <a href="https://unsplash.com/@jonathanborba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Borba</a> on <a href="https://unsplash.com/photos/people-swimming-and-enjoying-the-ocean-on-a-sunny-day-NgWfv952yls?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
 
-
-                                                                                                                                                                                                                                                                                                                                         /*Icons by GPT-5*/
+/*Icons by GPT-5*/
 
 /*https://www.centreformentalhealth.org.uk/topics/economics/*/
 /*https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines*/
 /*https://fontawesome.com/search?c=medical-health&o=r*/
 /*https://www.youtube.com/watch?v=O-6f5wQXSu8&t=1s*/
 /*https://www.gradient-animator.com/*/
+
+/*add functionality to all links*/
+/*add footer info*/
+/*add text in signs.html*/
 
 
 /* Google fonts import */
@@ -36,30 +39,33 @@
 }
 
 
-
-
 /* Global Styles */
 
 h1, h2 {
     text-transform: uppercase;
 }
+
 h1, h2, h3 {
     font-family: var(--primary-font), serif;
     color: var(--secondary-color) serif; /* Amazonite */
 }
+
 p {
     font-family: var(--secondary-font), serif;
     color: var(--secondary-color);
 }
+
 .p-text {
     font-family: var(--secondary-font), serif;
     color: var(--secondary-color);
     text-transform: capitalize;
     font-weight: bold;
 }
+
 .row {
     --bs-gutter-x: 0rem;
 }
+
 /*Moving Background*/
 .gradient-background {
     background: linear-gradient(340deg, #CDB2BD, #d58310, #d5c3a9, #94B0D5);
@@ -70,21 +76,38 @@ p {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:2% 0}
-    50%{background-position:99% 100%}
-    100%{background-position:2% 0}
+    0% {
+        background-position: 2% 0
+    }
+    50% {
+        background-position: 99% 100%
+    }
+    100% {
+        background-position: 2% 0
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:2% 0}
-    50%{background-position:99% 100%}
-    100%{background-position:2% 0
+    0% {
+        background-position: 2% 0
+    }
+    50% {
+        background-position: 99% 100%
+    }
+    100% {
+        background-position: 2% 0
     }
 }
+
 @keyframes AnimationName {
-    0%{background-position:2% 0
+    0% {
+        background-position: 2% 0
     }
-    50%{background-position:99% 100%}
-    100%{background-position:2% 0
+    50% {
+        background-position: 99% 100%
+    }
+    100% {
+        background-position: 2% 0
     }
 }
 
@@ -93,21 +116,25 @@ p {
 .logo {
     width: 4.5rem;
 }
+
 .navbar {
     background-color: var(--primary-color);
     font-family: var(--primary-font), serif;
     color: var(--highlight-color-light);
     font-size: 1.75rem !important;
 }
+
 /* Modal */
 .modal-title {
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 1.5rem !important;
 }
+
 .modal-body {
     background-color: var(--highlight-color);
 }
+
 .modal-body p {
 
     color: var(--primary-color);
@@ -118,20 +145,42 @@ p {
 #header {
     padding: 4rem;
 }
+
 .btn-light {
-   background-color: var(--highlight-color-light);
-}
-/*Body*/
-#indexcarousel {
-    border-top-width: .25em;
-    border-bottom-width: .25em;
-    border-top-style: solid;
-    border-color: var(--highlight-color-light);
     background-color: var(--highlight-color-light);
-    justify-content: center;
-    height: clamp(80px, 50%, 700px );
-    width: 100%;
-    padding: 0 .25em 0 .25em;
+}
+
+/*Body*/
+
+
+/*Main*/
+#main-border {
+    border-top-width: .25em;
+    border-top-style: solid;
+    border-color: var(--primary-color);
+}
+
+#main-border {
+    padding-top: 32px;
+    padding-right: 1rem;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+/* Responsive and size for quote images AI */
+.indexquotesimg {
+    width: clamp(90px, 30vw, 260px);
+    height: auto;
+    max-height: 220px;
+    min-width: 60px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* Center blockquote text with image */
+.indexquotestxt {
+    margin-bottom: 0;
 }
 
 /* Footer */
@@ -151,6 +200,7 @@ p {
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
 }
+
 #ytembed iframe {
     position: absolute;
     top: 0;
@@ -160,6 +210,42 @@ p {
     border: 0;
 }
 
+/* Card grid equal height/width for Resource Library - improved  AI generated */
+main .row {
+    align-items: stretch;
+}
+
+main .col {
+    display: flex;
+    flex-direction: column;
+}
+
+main .card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Let Bootstrap's .h-100 work for equal height */
+}
+
+main .card-img-top {
+    width: 100%;
+    height: 285px;
+    object-fit: cover;
+    object-position: center;
+}
+
+main .card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main .card-body a.btn {
+    margin-top: auto;
+}
+
+
 /* media queries */
 
 @media screen and (min-width: 768px) {
@@ -168,6 +254,7 @@ p {
         flex-direction: row;
         align-items: flex-start;
     }
+
     #ytembed {
         max-width: 400px;
         width: 400px;
@@ -175,57 +262,40 @@ p {
         margin: 0 0 0 2rem;
         padding-bottom: 0;
     }
+
     #ytembed iframe {
         position: static;
         width: 400px;
         height: 225px;
     }
 }
+
 @media screen and (min-width: 992px ) {
 }
+
 @media screen and (min-width: 1200px ) {
 }
+
 @media screen and (min-width: 1400px ) {
 }
+
 @media screen and (max-width: 450px) {
     .row {
         display: flex;
-        flex-direction: column !important;
+        flex-direction: column;
         align-items: stretch;
     }
+
     #ytembed {
         max-width: 100%;
         margin-top: 1.5rem;
         margin-left: 0;
     }
+
+    main .row {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
 }
 
-/* Card grid equal height/width for Resource Library - improved  AI generated */
-main .row {
-    align-items: stretch;
-}
-main .col {
-    display: flex;
-    flex-direction: column;
-}
-main .card {
-    width: 18rem;
-    display: flex;
-    flex-direction: column;
-    height: 100%; /* Let Bootstrap's .h-100 work for equal height */
-}
-main .card-img-top {
-    width: 100%;
-    height: 285px;
-    object-fit: cover;
-    object-position: center;
-}
-main .card-body {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-main .card-body a.btn {
-    margin-top: auto;
-}

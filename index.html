@@ -36,27 +36,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
+                    <a class="nav-link" id="text-link" data-bs-toggle="modal" data-bs-target="#helpline">Get Help
+                        Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="resource-library.html">Resource library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="volunteer.html">Volunteer With Us</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link " href="signs.html">Spotting the Signs</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="support.html">Getting Support</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="volunteeer.html">Volunteer With Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="text-link" href="#footer">Get Help Now</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        More Resources
-                    </a>
-                    <ul id="dropdown" class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Find Inspiration</a></li>
-                        <li><a class="dropdown-item" href="#">Further Reading</a></li>
-                        <li><a class="dropdown-item" href="#">Resource library/Credits</a></li>
-                    </ul>
             </ul>
         </div>
     </div>
@@ -65,15 +56,23 @@
 
 <!--Gradient body-->
 <!--Header-->
-<header class="d-flex flex-column gradient-background">
+<header class="d-flex flex-column gradient-background" style="height: 100vh;">
     <div id="header" class="container text-center my-8">
         <div class="row">
             <div class="col text-center text-xl-start">
                 <h1 class="display-4 fw-bold">Welcome to Nervous Health</h1>
                 <h3 class="display-6">Take a minute and settle in</h3>
-                <p>If you are here to calm down, to learn, or to get help for yourself or someone else.</p><p> YOU ARE IN
+                <p>If you are here to calm down, to learn, or to get help for yourself or someone else...</p>
+                <p> YOU ARE IN
                     THE RIGHT PLACE!</p>
-                <p>Some days we don't feel so good, some days can also mean most days. Loneliness can feel overwhelming, and that is why it's our mission to make you feel accompanied through your hardest times. Why don't you start by mediating with us for a few minutes and then we can learn how to look forward.</p>
+                <p>Some days we don't feel so good, some days can also mean most days. Loneliness can feel overwhelming,
+                    and that is why it's our mission to make you feel accompanied through your hardest times.
+                    Through our staff and volunteers we aim to bring all the resources to your hands. To help you and
+                    your loved ones realize the value of life and to bring you valour for today, and every day after.
+                </p>
+                <p class="p-text"> Why don't you start by mediating with us for a few minutes? And then we can learn how
+                    to move forward.</p>
+
                 <!-- Button trigger modal -->
                 <div>
                     <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#helpline">
@@ -81,15 +80,93 @@
                     </button>
                 </div>
             </div>
-                <div id="ytembed" class="col embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" width="400" height="225" src="https://www.youtube.com/embed/O-6f5wQXSu8" title="10-Minute Meditation For Anxiety | Goodful" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+            <div id="ytembed" class="col embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="225"
+                        src="https://www.youtube.com/embed/O-6f5wQXSu8"
+                        title="10-Minute Meditation For Anxiety | Goodful"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyro py-6scope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </header>
 <!--Main-->
-<main>
-
+<main class="gradient-background" id="main-border">
+    <div class="testimonials container overflow-hidden py-2 px-6">
+        <div class="container overflow-hidden text-center">
+            <!--            first pair in testimonials-->
+            <div class="row gy-5 py-6">
+                <div class="col-6">
+                    <img class="indexquotesimg img-fluid rounded float-start" src="assets/images/portrait-1.webp"
+                         alt="...">
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-center text-center">
+                    <figure>
+                        <blockquote class="indexquotestxt blockquote">
+                            <p>One day I decided to choose myself, and every day after that, I've kept my promise. I
+                                wear a smile and I go forward through whatever comes my way.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer py-3">
+                            Gia <cite title="Source Title">Overcame lifelong abandonment.</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-center text-center">
+                    <figure>
+                        <blockquote class="indexquotestxt blockquote">
+                            <p>I used to feel like my actions never mattered, nothing was worth anything. Now my biggest
+                                joy is what I can share with other through volunteering. It's my passion and I live for
+                                it.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer py-3">
+                            Mario Puzo <cite title="Source Title">Loves volunteering with us!</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-6">
+                    <img class="indexquotesimg img-fluid rounded float-end" src="assets/images/portrait-4.webp"
+                         alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="container overflow-hidden text-center">
+            <!--            second pair in testimonials-->
+            <div class="row gy-5 py-6">
+                <div class="col-6">
+                    <img class="indexquotesimg img-fluid rounded float-start" src="assets/images/portrait-3.webp"
+                         alt="...">
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-center text-center">
+                    <figure>
+                        <blockquote class="indexquotestxt blockquote">
+                            <p>After my husband passed, I lost everything, I started working at my friend's greenhouse,
+                                and since then I've opened a business, and found a new family who supports me.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer py-3">
+                            Sofía Margarita Vergara <cite title="Source Title">Filled her life after a loss</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-center text-center">
+                    <figure>
+                        <blockquote class="indexquotestxt blockquote">
+                            <p>I discovered that all I had to do was talk, ask and see what there was to love. I lived
+                                years without having a friend or anyone close. But today I have a hundred friends,
+                                trips, hobbies and passions</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer py-3">
+                            Penelope <cite title="Source Title">Risked starting a conversation, and found a new
+                            life.</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-6">
+                    <img class="indexquotesimg img-fluid rounded float-end" src="assets/images/community-2-water.webp"
+                         alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <!--Footer-->
 
