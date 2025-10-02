@@ -1,4 +1,5 @@
 /*//https://formdump.codeinstitute.net//*/
+
 /*Photo by Ahmet Yüksek ✪: https://www.pexels.com/photo/layered-mountain-silhouettes-at-sunset-33764947/*/
 /*Photo by Đỗ Ngọc Tú Quyên: https://www.pexels.com/photo/photo-of-a-woman-smiling-1520760/*/
 /*Photo by Justin Shaifer: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/*/
@@ -7,10 +8,18 @@
 /*Photo by Yassir Abbas: https://www.pexels.com/photo/man-with-eyes-covered-by-cloth-11611449/*/
 /*Photo by Tara Winstead: https://www.pexels.com/photo/red-text-on-white-textile-8386730/*/
 /*Photo by Bri Schneiter: https://www.pexels.com/photo/calm-body-of-lake-between-mountains-346529/*/
-/*Icons by GPT-5*/
+/*Photo by <a href="https://unsplash.com/@g_leighton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gustavo Leighton</a> on <a href="https://unsplash.com/photos/woman-holding-a-potted-pink-flower-among-lush-green-plants-LfOHw9tO58k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+/*Photo by <a href="https://unsplash.com/@withdanial?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Danial D</a> on <a href="https://unsplash.com/photos/man-in-black-shirt-and-cap-gestures-enthusiastically-VBpMICi4Z74?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+/*Photo by <a href="https://unsplash.com/@jonathanborba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Borba</a> on <a href="https://unsplash.com/photos/people-swimming-and-enjoying-the-ocean-on-a-sunny-day-NgWfv952yls?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+
+
+                                                                                                                                                                                                                                                                                                                                         /*Icons by GPT-5*/
+
 /*https://www.centreformentalhealth.org.uk/topics/economics/*/
 /*https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines*/
 /*https://fontawesome.com/search?c=medical-health&o=r*/
+/*https://www.youtube.com/watch?v=O-6f5wQXSu8&t=1s*/
+/*https://www.gradient-animator.com/*/
 
 
 /* Google fonts import */
@@ -21,7 +30,7 @@
     --primary-font: "Dongle", sans-serif;
     --secondary-font: "M+PLUS+1p", sans-serif;
     --primary-color: #1A2C38; /* Deep Ocean blue */
-    --secondary-color: #5E8862; /* Amazonite */
+    --secondary-color: #0B2D1E; /* Amazonite */
     --highlight-color: #94B0D5; /* Kind Blue */
     --highlight-color-light: #CDB2BD; /* Soft pink */
 }
@@ -35,12 +44,43 @@ h1, h2 {
     text-transform: uppercase;
 }
 h1, h2, h3 {
-    font-family: var(--primary-font);
-    color: var(--secondary-color); /* Amazonite */
+    font-family: var(--primary-font), serif;
+    color: var(--secondary-color) serif; /* Amazonite */
 }
 p {
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font), serif;
     color: var(--secondary-color);
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+/*Moving Background*/
+.gradient-background {
+    background: linear-gradient(340deg, #CDB2BD, #d58310, #d5c3a9, #94B0D5);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:2% 0}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:2% 0}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0
+    }
+}
+@keyframes AnimationName {
+    0%{background-position:2% 0
+    }
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0
+    }
 }
 
 /* Navbar */
@@ -50,25 +90,107 @@ p {
 }
 .navbar {
     background-color: var(--primary-color);
-    font-family: var(--primary-font);
+    font-family: var(--primary-font), serif;
     color: var(--highlight-color-light);
     font-size: 1.75rem !important;
 }
+/* Modal */
+.modal-title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+}
+.modal-body {
+    background-color: var(--highlight-color);
+}
+.modal-body p {
+
+    color: var(--primary-color);
+}
 
 /* Header */
+
 #header {
     padding: 4rem;
 }
+.btn-light {
+   background-color: var(--highlight-color-light);
+}
+/*Body*/
+#indexcarousel {
+    border-top-width: .25em;
+    border-bottom-width: .25em;
+    border-top-style: solid;
+    border-color: var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    justify-content: center;
+    height: clamp(80px, 50%, 700px );
+    width: 100%;
+    padding: 0 .25em 0 .25em;
+}
+
 /* Footer */
+
+#footer {
+    border-top-width: .5em;
+    border-top-style: solid;
+    border-color: var(--primary-color);
+}
+
+/* Responsive YouTube Embed */
+#ytembed {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+#ytembed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 /* media queries */
 
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    #ytembed {
+        max-width: 400px;
+        width: 400px;
+        height: 225px;
+        margin: 0 0 0 2rem;
+        padding-bottom: 0;
+    }
+    #ytembed iframe {
+        position: static;
+        width: 400px;
+        height: 225px;
+    }
 }
 @media screen and (min-width: 992px ) {
 }
 @media screen and (min-width: 1200px ) {
 }
 @media screen and (min-width: 1400px ) {
-
+}
+@media screen and (max-width: 450px) {
+    .row {
+        display: flex;
+        flex-direction: column !important;
+        align-items: stretch;
+    }
+    #ytembed {
+        max-width: 100%;
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
 }
