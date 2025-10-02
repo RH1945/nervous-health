@@ -51,7 +51,12 @@ p {
     font-family: var(--secondary-font), serif;
     color: var(--secondary-color);
 }
-
+.p-text {
+    font-family: var(--secondary-font), serif;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
 .row {
     --bs-gutter-x: 0rem;
 }
@@ -193,4 +198,34 @@ p {
         margin-top: 1.5rem;
         margin-left: 0;
     }
+}
+
+/* Card grid equal height/width for Resource Library - improved  AI generated */
+main .row {
+    align-items: stretch;
+}
+main .col {
+    display: flex;
+    flex-direction: column;
+}
+main .card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Let Bootstrap's .h-100 work for equal height */
+}
+main .card-img-top {
+    width: 100%;
+    height: 285px;
+    object-fit: cover;
+    object-position: center;
+}
+main .card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+main .card-body a.btn {
+    margin-top: auto;
 }
