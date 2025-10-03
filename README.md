@@ -1,7 +1,6 @@
 # Project Title
 
-![Website Screenshot](assets/images/)  
-*Add your [Am I Responsive](http://ami.responsivedesign.is/) image here*
+![Website Screenshot](assets/images/amiresp.jpeg)
 
 ---
 
@@ -17,8 +16,7 @@
 4. [Deployment & Dependencies](#-deployment--dependencies)
 5. [AI Implementation](#-ai-implementation)
 6. [Testing & Validation](#-testing--validation)
-7. [References / External Links](#-references--external-links)
-8. [Credits](#-credits)
+7. [Credits](#-credits)
 
 ---
 
@@ -54,6 +52,7 @@
 
 ## ✅ Testing & Validation
 - Manual testing (devices, browsers).
+- 
 - Validation (HTML, CSS, Lighthouse, accessibility).
 - Bugs and fixes.
 
