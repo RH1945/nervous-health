@@ -60,7 +60,7 @@
     <div class="container-fluid gradient-background">
         <div class="container overflow-hidden justify-content-center">
 
-            <div class="shadow mt-4 p-3 mb-4 bg-body-primary text-center rounded p-text"><p>Here are some people, organizations and resources that could help you overcome what you are going through. We hope you find the right match!</p></div>
+            <div class="shadow mt-4 p-3 mb-4 bg-body-primary text-center rounded p-text"><h2>Here are some people, organizations and resources that could help you overcome what you are going through. We hope you find the right match!</h2></div>
 
             <div class="row gx-5">
                 <div class="col">
@@ -172,28 +172,59 @@
     </div>
 </main>
 <!--Footer-->
+<div class="container">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3"><h5>Need to talk?</h5>
 
+                <ul class="nav flex-column">
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#helpline">
+                        Call A Helpline Now
+                    </button>
+                    <li class="nav-item mb-2"><p class="p-text py-2">If you’re struggling, reaching out can make all the difference. You matter, and you’re not alone.</p></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3"><h5></h5>
 
-<footer id="footer" class="p-5 vw-100">
-    <div class="row">
-        <div class="col-6 col-md-2 mb-3"><h5>This section will only forward people to healthcare practicioners/info</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">clinique</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">nhs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">article</a></li>
-            </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3"><h5>Other resources</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="resource-library.html" class="nav-link p-0 text-body-secondary">Resources</a></li>
+                    <li class="nav-item mb-2"><a href="volunteer.html" class="nav-link p-0 text-body-secondary">Volunteer</a></li>
+                    <li class="nav-item mb-2"><a href="signs.html" class="nav-link p-0 text-body-secondary">Spotting the Signs</a></li>
+                    <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-body-secondary">About the Site</a></li>
+                </ul>
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form><h5>Subscribe to our newsletter</h5>
+                    <p>Once a month you will get news and plans for our future, everything happening in your community,
+                        and tips on how and where you can join.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2"><label for="newsletter1"
+                                                                                   class="visually-hidden">Email
+                        address</label> <input id="newsletter1" type="email" class="form-control"
+                                               placeholder="Email address">
+                        <button class="btn btn-dark" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col-6 col-md-2 mb-3"><h5>This section has other info about the site</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"><p>Nervous Health is a
+            fake entity, the creator does not claim to be an authority or to having professional experience in the subjects
+            represented anywhere by the website.</p></div>
+        <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook">
+                <svg class="bi" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </footer>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="helpline" tabindex="-1" aria-labelledby="helplinemodal" aria-hidden="true">
     <div class="modal-dialog">

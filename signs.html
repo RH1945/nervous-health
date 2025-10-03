@@ -20,11 +20,11 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <!-- custom css -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Title -->
+    <!-- Page Title -->
     <title>Nervous Health | Signs</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
-<!--Navbar-->
+<!-- ================= NAVBAR ================= -->
 <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark" aria-label="Main Navigation">
     <div class="container">
         <a href="index.html"><img src="assets/images/apple-touch-icon.png" class="logo d-inline-block align-top"
@@ -45,7 +45,7 @@
                     <a class="nav-link " href="volunteer.html">Volunteer With Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="signs.html">Spotting the Signs</a>
+                    <a class="nav-link active" aria-current="page" href="signs.html">Spotting the Signs</a>
                 </li>
             </ul>
         </div>
@@ -55,35 +55,129 @@
 
 <!--Gradient body-->
 <!--Header-->
-<header class="d-flex flex-column vh-100 gradient-background">
-
-</header>
-<!--Main-->
-<main>
-</main>
-<!--Footer-->
-
-
-<footer id="footer" class="p-5 vw-100">
-    <div class="row">
-        <div class="col-6 col-md-2 mb-3"><h5>This section will only forward people to healthcare practicioners/info</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">clinique</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">nhs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">article</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3"><h5>This section has other info about the site</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
+<header>
+    <div class="hero-signs">
+        <div class="container shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+            <h1 class="p-text">If you are there, you can act!</h1>
+            <p class="p-text bg-body-primary rounded">Nervous Health is a dedicated to helping everyone in need. But if you know or suspect that someone is going through a hard time.</p><p class="p-text bg-body-primary rounded"> You are so much more powerful! Talk, ask and be there for that person, whoever they might be, compassion is a strong tool.</p>
         </div>
     </div>
-</footer>
+</header>
+<!--Main-->
+<main role="main" class="gradient-background">
+    <section class="py-5 " id="spotting-signs">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8 text-center">
+                    <h2 class="fw-bold">How to Spot and Support a Friend in Need</h2>
+                    <p class="lead text-muted">
+                        Mental health challenges like depression can be difficult to see, but small changes in behavior or mood can be important signals. Recognizing them early and offering support can make a real difference.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Spotting the Signs</h5>
+                            <p class="card-text">
+                                Look for persistent sadness, withdrawal from social activities, changes in sleep or appetite, loss of interest in hobbies, or sudden irritability. Trust your instincts if something feels “off.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Help</h5>
+                            <p class="card-text">
+                                Start with kindness and patience. Listen without judgment, avoid minimizing their feelings, and remind them they don’t have to go through it alone. Sometimes just being present is the best support.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">What to Do Next</h5>
+                            <p class="card-text">
+                                Encourage professional help from a doctor or therapist. Offer to help them find resources or go with them to appointments. If they are in crisis or talk about self-harm, call emergency services right away.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <p class="fw-semibold text-muted">
+                        Remember: reaching out to a friend can change their path. Compassion and action go hand in hand.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<!--Footer-->
+<div class="container">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3"><h5>Need to talk?</h5>
+
+                <ul class="nav flex-column">
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#helpline">
+                        Call A Helpline Now
+                    </button>
+                    <li class="nav-item mb-2"><p class="p-text py-2">If you’re struggling, reaching out can make all the
+                        difference. You matter, and you’re not alone.</p></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3"><h5></h5>
+
+            </div>
+            <div class="col-6 col-md-2 mb-3"><h5>Other resources</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="resource-library.html" class="nav-link p-0 text-body-secondary">Resources</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="volunteer.html" class="nav-link p-0 text-body-secondary">Volunteer</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="signs.html" class="nav-link p-0 text-body-secondary">Spotting the
+                        Signs</a></li>
+                    <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-body-secondary">About the
+                        Site</a></li>
+                </ul>
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form><h5>Subscribe to our newsletter</h5>
+                    <p>Once a month you will get news and plans for our future, everything happening in your community,
+                        and tips on how and where you can join.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2"><label for="newsletter1"
+                                                                                   class="visually-hidden">Email
+                        address</label> <input id="newsletter1" type="email" class="form-control"
+                                               placeholder="Email address">
+                        <button class="btn btn-dark" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"><p>Nervous Health is a
+            fake entity, the creator does not claim to be an authority or to having professional experience in the
+            subjects
+            represented anywhere by the website.</p></div>
+        <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook">
+                <svg class="bi" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </footer>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="helpline" tabindex="-1" aria-labelledby="helplinemodal" aria-hidden="true">
     <div class="modal-dialog">

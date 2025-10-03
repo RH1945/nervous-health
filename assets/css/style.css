@@ -21,8 +21,8 @@
 /*https://www.gradient-animator.com/*/
 
 /*add functionality to all links*/
-/*add footer info*/
 /*add text in signs.html*/
+/*add required to form*/
 
 
 /* Google fonts import */
@@ -150,6 +150,28 @@ p {
     background-color: var(--highlight-color-light);
 }
 
+.hero-signs {
+    background-color: var(--highlight-color-light);
+    background-image: url("../images/bg2-blue.webp");
+    background-blend-mode: multiply;
+    background-size: cover;
+
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+.hero-about {
+    background-color: var(--highlight-color-light);
+    background-image: url("../images/bg1-orange-crop.webp");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
 /*Body*/
 
 
