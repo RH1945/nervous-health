@@ -1,67 +1,172 @@
-# Project Title
 
-![Website Screenshot](assets/images/amiresp.jpeg)
+![Website Screenshot](assets/images/amiresp.png)
+
+## 🚀 Live Website
+# Nervous Health
+
+A mental health awareness resource site built as a **Code Institute** school project. It blends researched content with personal insight to create a realistic, calming, and supportive experience.
+
+[Am I Responsive](assets/images/amiresp.png)
 
 ---
 
 ## 🚀 Live Website
-[View the live site here](https://your-link.com)
+**URL:** _Add your deployed link here (e.g., GitHub Pages / Netlify / Vercel)_
 
 ---
 
 ## 📑 Table of Contents
-1. [User Stories](#-user-stories)
-2. [UX Design](#-ux-design)
-3. [Features](#-features)
-4. [Deployment & Dependencies](#-deployment--dependencies)
-5. [AI Implementation](#-ai-implementation)
-6. [Testing & Validation](#-testing--validation)
-7. [Credits](#-credits)
+1. [About](#about)
+2. [User Stories](#user-stories)
+3. [UX Design](#ux-design)
+4. [Features](#features)
+5. [Deployment & Dependencies](#deployment--dependencies)
+6. [AI Implementation](#ai-implementation)
+7. [Testing & Validation](#testing--validation)
+8. [References / External Links](#references--external-links)
+9. [Credits](#credits)
+10. [License](#license)
 
 ---
 
-## 🙋 User Stories
-*Write your user stories here (with role, goal, benefit, acceptance criteria if needed).*
+## About
+**Nervous Health** aims to offer a **calming landing page**, clear crisis support, and a resource library tailored to different **mental health topics** and **learning styles**. It reflects some **personal experiences** and strives to be **realistic and immersive** to help visitors who may be struggling. A prominent “**Call a Helpline**” action is available site-wide, including **UK emergency numbers** and a link to **international helplines**.
 
 ---
 
-## 🎨 UX Design
-- Wireframes: ![Wireframe Example](assets/wireframe.png)
-- Color Palette & Typography
-- Design Rationale
+## User Stories
+
+### 1) Immediate Crisis Access
+- **As a** visitor in crisis
+- **I want** a visible “Get Help Now” button that opens a modal with UK numbers and an international helpline list
+- **So that** I can get urgent support fast
+- **Acceptance Criteria**
+    - “Get Help Now” present in navbar and footer
+    - Modal shows UK: **999 / 112** and a link to international helplines
+    - Works on mobile and desktop
+
+### 2) Learn the Signs
+- **As a** caring friend/family member
+- **I want** guidance on spotting depression/mental health issues and how to support next steps
+- **So that** I can help effectively
+- **Acceptance Criteria**
+    - Clear sections: **Spotting the Signs**, **How to Help**, **What to Do Next**
+    - Plain, empathetic language
+    - Accessible layout with headings and cards
+
+### 3) Explore the Resource Library
+- **As a** learner with different preferences
+- **I want** curated organizations, experts, and formats (articles, videos, therapy links)
+- **So that** I can find a resource that matches my needs
+- **Acceptance Criteria**
+    - Cards with image, title, short blurb, and external link
+    - Content spans multiple topics and styles
+
+### 4) Volunteer With Us
+- **As a** community member
+- **I want** a simple form to express interest in volunteering
+- **So that** I can contribute and connect
+- **Acceptance Criteria**
+    - Form fields for name, email, location, short bio/motivation
+    - Optional newsletter/updates opt-ins
+    - Submit button with basic validation
+
+### 5) Stay Informed
+- **As a** returning visitor
+- **I want** an email subscription box
+- **So that** I can receive periodic tips and updates
+- **Acceptance Criteria**
+    - Footer form to add email
+    - Clear consent language and no spam promise
 
 ---
 
-## ✨ Features
-- Feature 1 (short description + screenshot if possible)
-- Feature 2
-- Future Implementations
+## UX Design
+- **Tone & Goal:** Calm, reassuring, supportive.
+- **Landing Experience:** Hero copy that invites visitors to breathe and settle; embedded **10-minute meditation video** (YouTube) to reduce anxiety.
+- **Information Architecture:** Primary nav links to **Resource Library**, **Volunteer**, **Spotting the Signs**, and crisis support.
+- **Accessibility:** Semantic HTML, alt text for images, large touch targets for the helpline button, and simple language.
+- **Branding:** Minimalist look with soft gradients, modern typography (**Google Fonts:** Dongle & M PLUS 1p).
 
 ---
 
-## 🛠 Deployment & Dependencies
-- Steps to deploy (e.g., GitHub Pages, Heroku, Netlify).
-- List dependencies/frameworks (Bootstrap, Flask, Django, etc.).
+## Features
+- **Global Crisis Support**
+    - “Get Help Now” button and footer **Call a Helpline** action
+    - UK emergency prompt and international list link
+- **Resource Library**
+    - Curated cards (people, orgs, services) with clear calls to action
+- **Education Section – “Spotting the Signs”**
+    - Three-card layout: recognize signs, offer support, next steps
+- **Volunteer Form**
+    - Inputs for name/email/location/motivation; optional opt-ins
+- **Newsletter Signup (Footer)**
+    - Monthly updates and community highlights
+- **Responsive & Mobile-First**
+    - Bootstrap grid/components; custom CSS
+- **Meta & Favicons**
+    - Description tag; Apple touch & PNG favicons
 
 ---
 
-## 🤖 AI Implementation
-*Describe AI usage: prompts, models, integrations, etc.*
+## Deployment & Dependencies
+- **Bootstrap 5** via CDN
+- **Google Fonts:** Dongle, M PLUS 1p
+- **Font Awesome** (kit)
+- **Custom CSS:** `assets/css/style.css`
+- **Favicons:** `assets/images/*`
+- **Recommended Deployment:** GitHub Pages / Netlify / Vercel
+- **How to Deploy (example: GitHub Pages)**
+    1. Push this repo to GitHub
+    2. In **Settings → Pages**, set the branch to `main` (root)
+    3. Wait for build → use the provided URL
+- **Environment:** Static site; no server-side code
 
 ---
 
-## ✅ Testing & Validation
-- Manual testing (devices, browsers).
-- 
-- Validation (HTML, CSS, Lighthouse, accessibility).
-- Bugs and fixes.
+## AI Implementation
+- **Content & UX Copy:** Sections and micro-copy drafted with assistance to ensure clarity and empathy.
+- **Design Assets:** Optional custom favicon/icon set (brain & flowers) prepared for future use.
 
 ---
 
-## 👏 Credits
+## Testing & Validation
+- **Manual Testing**
+    - Check navbar, page routing, helpline modal, forms, and external links on desktop & mobile
+- **Validators**
+    - HTML Validator (W3C), CSS Validator, and **Lighthouse** for performance/a11y/SEO
+- **Accessibility**
+    - Keyboard navigation, focus states, alt text, color contrast
+- **Known Issues**
+    - Add after testing (e.g., embed responsiveness tweaks, form validation messages)
 
-Inspiration, code snippets, mentors, etc.
-- 
+---
+
+## References / External Links
+- **International Crisis Lines:** https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines#Crisis_lines_by_country
+- **Organizations & Resources (examples):**
+    - Gottman Institute — https://www.gottman.com/
+    - Sabrina Zohar — https://www.youtube.com/@Sabrina_zohar/featured
+    - Mind — https://www.mind.org.uk/
+    - NHS Mental Health — https://www.nhs.uk/mental-health/
+    - Verywell Mind — https://www.verywellmind.com/therapy-4581775
+    - Talkspace — https://www.talkspace.com/
+    - The School of Life — https://www.theschooloflife.com/
+    - Thriveworks — https://thriveworks.com/
+
+---
+
+## Credits
+- **Educational Context:** Code Institute project
+- **Frameworks & Assets:** Bootstrap, Google Fonts, Font Awesome
+- **Images:** Local `/assets/images/` and open resources as credited in the site
+- **Disclaimer:** “Nervous Health is a fake entity…” copy included in footer to clarify non-clinical status
+
+---
+
+## License
+This project includes components under the **MIT License** (HTML5 Boilerplate). See [`LICENSE.txt`](LICENSE.txt) for details.
+
 - Acknowledge external libraries, icons, or tutorials.
 - Mental health websites
 - https://www.centreformentalhealth.org.uk/topics/economics/
